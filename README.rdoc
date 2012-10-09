@@ -8,6 +8,24 @@ Complete replacement of ActiveRecord serialize functionality.
 * No bugs with ActiveRecord serialization in threads
 * "save" do not saves serialized attributes every time, but only when it is really necessary
 
+== Usage
+
+Add to Gemfile
+
+```ruby
+gem 'serializable'
+```
+
+Use in your Models
+
+```ruby
+class SomeModel < ActiveRecord::Base
+
+  serializable :attribute_name, Hash.class
+
+end
+```
+
 == Contributing to serializable
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
