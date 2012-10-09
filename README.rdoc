@@ -16,9 +16,9 @@ Complete replacement of ActiveRecord serialize functionality.
 
 * Use in your Models
 
-  class SomeModel < ActiveRecord::Base
-    serializable :attribute_name, Hash.class
-  end
+        class SomeModel < ActiveRecord::Base
+          serializable :attribute_name, Hash.class
+        end
 
 == Contributing to serializable
  
