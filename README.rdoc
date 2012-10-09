@@ -12,7 +12,7 @@ Complete replacement of ActiveRecord serialize functionality.
 
 * Add to Gemfile
 
-  gem 'serializable'
+        gem 'serializable'
 
 * Use in your Models
 
