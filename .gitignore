@@ -48,9 +48,4 @@ pkg
 # For rubinius:
 #*.rbc
 
-.idea/dictionaries/*
-.idea/dictionaries
-.idea/scopes/*
-.idea/scopes
-.idea/*
 .idea

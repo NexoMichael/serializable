@@ -18,8 +18,6 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
-    ".idea/dictionaries/admin.xml",
-    ".idea/scopes/scope_settings.xml",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
