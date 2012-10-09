@@ -1,6 +1,12 @@
 = serializable
 
-Description goes here.
+Complete replacement of ActiveRecord serialize functionality.
+
+== Features
+
+* Cached serialized values
+* No bugs with ActiveRecord serialization in threads
+* "save" do not saves serialized attributes every time, but only when it is really necessary
 
 == Contributing to serializable
  
