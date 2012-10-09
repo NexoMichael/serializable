@@ -10,21 +10,15 @@ Complete replacement of ActiveRecord serialize functionality.
 
 == Usage
 
-Add to Gemfile
+* Add to Gemfile
 
-```ruby
-gem 'serializable'
-```
+  gem 'serializable'
 
-Use in your Models
+* Use in your Models
 
-```ruby
-class SomeModel < ActiveRecord::Base
-
-  serializable :attribute_name, Hash.class
-
-end
-```
+  class SomeModel < ActiveRecord::Base
+    serializable :attribute_name, Hash.class
+  end
 
 == Contributing to serializable
  
