@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "serializable"
   gem.homepage = "http://github.com/NexoMichael/serializable"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Replacement of standart ActiveRecord serialize functionality"
+  gem.description = "Replacement of standart ActiveRecord serialize functionality"
   gem.email = "nexo.michael@gmail.com"
   gem.authors = ["Mikhail Kochegarov"]
   # dependencies defined in Gemfile
